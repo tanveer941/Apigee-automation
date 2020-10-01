@@ -1,0 +1,13 @@
+{
+  "ApigeeProxyServer": "https://myApigee.server.com:5000",
+  "Email": "myUser@myDomain.com",
+  "Password": "",
+  "Orgname": "myOrganisation",
+  "GetProxies": "/v1/organizations/{0}/apis",
+  "GetProxyDetails": "/v1/organizations/{0}/apis/{1}",
+  "ExportProxyRevision": "/v1/organizations/{0}/apis/{1}/revisions/{2}",
+  "DownloadFolder": "../proxy_local",
+  "DeployProxyRevision": "/v1/organizations/{0}/environments/{1}/apis/{2}/revisions/{3}/deployments",
+  "GetProxyDeployments": "/v1/organizations/{0}/apis/{1}/deployments",
+  "ImportProxy": "/v1/organizations/{0}/apis/?action=import&validate=true&name={1}"
+}
