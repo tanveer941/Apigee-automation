@@ -6,10 +6,10 @@ Using the below export and import APIs will help for quicker development and dep
 It will also help for segregating different target endpoints for Dev, Test and Stage environments
 
 # Prefill data
-To use this utility certain data needs to be prefilled
-- Credentials like username and password for the API authentication
-- Apigee server name
-- Organisation name
+To use this utility certain data needs to be prefilled in the `api_config.json`
+- Credentials like username and password for the API authentication in JSON fields `Email` and `Password` respectively
+- Apigee server name in `ApigeeProxyServer`
+- Organisation name in `Orgname`
 
 # Exporting proxy
 - Execute the file `tools\export_proxy_to_local.py` with necessary parameters
