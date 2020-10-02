@@ -33,6 +33,7 @@ To use this utility certain data needs to be prefilled in the `api_config.json`
 - This step can easily be done in the Apigee console
 - If there is already a revision which is currently deployed then it needs to be undeployed first
 - Then deploy the revision that you intend to
+![Proxy_deployment](proxy_deployment.PNG?raw=true "proxy deployment") 
 
 ## Undeploying a proxy revision
 - This step is usually done if another revision needs to be deployed
